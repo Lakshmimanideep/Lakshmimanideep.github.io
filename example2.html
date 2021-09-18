@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Example2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body
+            {
+                background-color: chartreuse;
+            }
+            .row::after
+            {
+                display: table;
+                clear: both;
+                content: "";
+            }
+            [class*="col-"]
+            {
+                float: left;
+                padding: 15px;
+            }
+            .Header
+            {
+                background-color: chocolate;
+                margin: 20px;
+                box-shadow: rgb(0, 137, 250) 3px 2px 2px;
+                text-align: center;
+                box-sizing: border-box;
+                color: blue;
+                font-size: larger;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 15px;
+            }
+            .Header:hover
+            {
+                background-color: olive;
+                color: orangered;
+            }
+            .footer
+            {
+                background-color: chocolate;
+                margin: 20px;
+                box-shadow: crimson 3px 2px 2px;
+                text-align: end;
+                box-sizing: border-box;
+                color: gray;
+                font-family: cursive;
+                font-size: large;
+                padding: 15px;
+            }
+            .footer
+            {
+                background-color: peachpuff;
+                color: purple;
+            }
+            .menu
+            {
+                float: left;
+                margin: 20px;
+                background-color: hotpink;
+                text-align: left;
+                color: lime;
+                padding: 15px;
+                box-sizing: border-box;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: medium;
+                width: 30%;
+                height: 200px;
+            }
+            .menu:hover
+            {
+                background-color: mediumseagreen;
+                color: navy;
+            }
+            .aside
+            {
+                float: left;
+                margin: 20px;
+                background-color: rgba(22, 158, 74, 0.795);
+                text-align: left;
+                color: rgba(211, 42, 0, 0.753);
+                padding: 15px;
+                box-sizing: border-box;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: medium;
+                width: 60%;
+                height: 200px;
+            }
+            .aside:hover
+            {
+                background-color: seagreen;
+                color: yellowgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Header">
+            <h1>Fruites</h1>
+        </div>
+        <div class="menu">
+            <h4>Mangoes</h4>
+            <h4>Banana</h4>
+            <h4>Apple</h4>
+            <h4>Grapes</h4>
+        </div>
+        <div class="aside">
+            <h1>Apple</h1>
+            <p>An apple keeps away fron the doctor</p>
+            <p>Eat Fruits daily for good health</p>
+        </div>
+        <div class = "footer">
+            <h1>Thanks</h1>
+        </div>
+    </body>
+</html>
